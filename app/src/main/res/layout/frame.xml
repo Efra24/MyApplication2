@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sebas"
+            android:textSize="23sp"
+            android:background="#5a1963" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="´Miguel"
+            android:background="#ff1c03"
+            android:textSize="23sp"
+            android:layout_gravity="right" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tarea"
+            android:background="#01ffee"
+            android:textSize="23sp"
+            android:layout_gravity="bottom" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android"
+            android:background="#3700ff"
+            android:textSize="23sp"
+            android:layout_gravity="bottom|right" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Studio"
+            android:background="#00f500"
+            android:textSize="23sp"
+            android:layout_gravity="center_vertical" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6to Semestre"
+            android:background="#ff8800"
+            android:textSize="23sp"
+            android:layout_gravity="center_horizontal" />
+    </FrameLayout>
+</LinearLayout>
